@@ -1,1 +1,8 @@
 
+1--from cus in Customers select cus; 
+
+2--from cus in Customers where cus.LastName == "Smith" select cus; 
+
+3--Return all contacts who don't have a primary phone number listed  
+     from cus in Customers where cus.Number == "" select cus; 
+4--from cus in Customers where cus.Address.Contains("New Delhi") select cus;  
