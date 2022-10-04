@@ -1,8 +1,12 @@
 
-1--from cus in Customers select cus; 
+1-- LINQ= from cus in Customers select cus; 
+    SQL = Selecet * from db where Customer.Occupation="Prospects";
 
-2--from cus in Customers where cus.LastName == "Smith" select cus; 
+2--LINQ= from cus in Customers where cus.LastName == "Smith" select cus; 
+   SQL=  Selecet * from db where Customer.LastName=Smith";
 
-3--Return all contacts who don't have a primary phone number listed  
-     from cus in Customers where cus.Number == "" select cus; 
-4--from cus in Customers where cus.Address.Contains("New Delhi") select cus;  
+3--from cus in Customers where cus.Number == "" select cus; 
+   SQL= Select * from db where Customer.number="";
+
+4--LINQ=from cus in Customers where cus.Address.Contains("New Jersey") select cus;  
+   SQL= Selecet * from db where Customer.Address="New Jersey";
