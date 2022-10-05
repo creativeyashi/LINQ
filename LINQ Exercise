@@ -1,5 +1,5 @@
 
-1-- LINQ= from cus in Customers select cus; 
+1-- LINQ= from cus in Customers where cus.Occupation="Prospects" select cus; 
     SQL = Selecet * from db where Customer.Occupation="Prospects";
 
 2--LINQ= from cus in Customers where cus.LastName == "Smith" select cus; 
